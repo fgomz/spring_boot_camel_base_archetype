@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: Camel de carga cartola banco
+
+local:
+  filesystem:
+    producer: /Users/$USER/Desktop/producer/

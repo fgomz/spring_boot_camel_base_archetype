@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<routes xmlns="http://camel.apache.org/schema/spring">
+
+	<route id="testRoutr" streamCache="true">
+		<from uri="file://{{local.filesystem.producer}}?include=.*.json" />
+		
+		<log message="File consumed -> ${body}" logName="cl.devster.camel"/>
+
+	</route>
+</routes>

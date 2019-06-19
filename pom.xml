@@ -18,7 +18,7 @@
 		<spring.version>4.3.8.RELEASE</spring.version>
 		<spring.boot.version>1.5.10.RELEASE</spring.boot.version>
 		<ot.svn.repository>cl.devster.spring_boot_camel_base_archetype.java</ot.svn.repository>
-		<camel.core>2.20.4</camel.core>
+		<camel.core>2.24.0</camel.core>
 	</properties>
 
 	<dependencies>
